@@ -1,2 +1,4 @@
 # Unsupervised-Image-to-Image-Translation-with-Staged-Transfer-Learning
 A group research in associate with Abhijeet Chauhan and Fan Mo from the University of Carleton.
+
+We propose a staged transfer learning approach for unsupervised image-to-image translation. Our goal is to learn a mapping from G : A → C without paired images, where A is the source domain and C is the target domain. Instead of performing image translation from source to target domain directly, to improve the performance in image-to-image translation, an intermediate domain B is used as a bridge to help domain translation from A to C. Our approach addresses the two challenges in image-to-image translation, heterogeneous domains and imbalanced training data size between the source and target image domains. Qualitative results are presented to compare the image translations between the direct translation and bridged translation with an intermediate domain.
